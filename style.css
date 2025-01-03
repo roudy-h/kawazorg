@@ -2,16 +2,19 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 0 20%;
+    padding: 3% 20%;
     background-color: rgb(81, 121, 163);
     color: white;
+    font-family: sans-serif;
+    line-height: 150%;
 }
 
 @media only screen and (max-width: 480px) {
     body {
-        padding: 0 5%;
+        padding: 05% 4%;
+        text-align: center;
     }
-  }
+}
 
 #presentation{
     text-align: justify;
