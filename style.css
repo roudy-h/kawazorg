@@ -1,0 +1,23 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 20%;
+    background-color: rgb(81, 121, 163);
+    color: white;
+}
+
+@media only screen and (max-width: 480px) {
+    body {
+        padding: 0 5%;
+    }
+  }
+
+#presentation{
+    text-align: justify;
+}
+
+#logo{
+    width: 200px;
+    height: auto;
+}
